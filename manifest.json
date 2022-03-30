@@ -1,0 +1,24 @@
+{
+	"short_name": "Push Notify",
+	"name": "Push Notify",
+	"icons": [
+		{
+			"src": "assets/img/Storci_Logo_1024_1024.png",
+			"type": "image/png",
+			"sizes": "1024x1024",
+			"purpose": "any maskable"
+		},
+		{
+			"src": "assets/img/Storci_Logo_1024_1024.png",
+			"type": "image/png",
+			"sizes": "1024x1024",
+			"purpose": "any maskable"
+		}
+	],
+	"start_url": "index.html",
+	"background_color": "#004071",
+	"theme_color": "#004071",
+	"display": "standalone",
+	"orientation": "portrait",
+    "gcm_sender_id": "370072803732"
+}

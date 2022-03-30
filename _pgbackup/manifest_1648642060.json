@@ -1,0 +1,23 @@
+{
+	"short_name": "Push Notify",
+	"name": "Push Notify",
+	"icons": [
+		{
+			"src": "",
+			"type": "image/png",
+			"sizes": "1024x1024",
+			"purpose": "any maskable"
+		},
+		{
+			"src": "",
+			"type": "image/png",
+			"sizes": "1024x1024",
+			"purpose": "any maskable"
+		}
+	],
+	"start_url": "index.html",
+	"background_color": "#004071",
+	"theme_color": "#004071",
+	"display": "standalone",
+	"orientation": "portrait"
+}
