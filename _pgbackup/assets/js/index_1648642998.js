@@ -4,7 +4,7 @@ Notification.requestPermission(status => { console.log('Notification permission 
 // Controlla che il browser supporti il service worker.
 if ('serviceWorker' in navigator) {
  // Path che contiene il service worker
- navigator.serviceWorker.register('.notifyPush/assets/js/sw.js')
+ navigator.serviceWorker.register('/assets/js/sw.js')
  .then(reg => {
    console.log('Service worker installato correttamente: ', reg);
 
