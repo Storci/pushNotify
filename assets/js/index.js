@@ -16,7 +16,7 @@ if ('serviceWorker' in navigator) {
       } else {
         // We have a subscription, update the database
         console.log('Subscription object: ', sub);
-        console.log('Subscription key: ', sub.getKey());
+        console.log('Subscription key: ', sub.getKey('p256dh'));
       }
     })
  })
