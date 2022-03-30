@@ -17,6 +17,12 @@ if ('serviceWorker' in navigator) {
         // We have a subscription, update the database
         console.log('Subscription object: ', sub);
         console.log('Subscription key: ', sub.getKey('p256dh'));
+
+        //let s = String.fromCharCode.apply(null, new Uint8Array(sub.getKey('p256dh')))
+        //let s = Buffer.from(sub.getKey('p256dh')).toString('base64');
+        let s = new TextDecoder("utf-8").decode(new Uint8Array(sub.getKey('p256dh')));
+
+        console.log(s)
       }
     })
  })
